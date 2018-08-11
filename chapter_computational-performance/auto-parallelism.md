@@ -105,6 +105,6 @@ print('run on GPU then copy to CPU: %f sec' % (time() - start))
 * 试试包含更加复杂的数据依赖的计算任务。MXNet能不能得到正确结果并提升计算性能？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1883)
+
 
 ![](../img/qr_auto-parallelism.svg)

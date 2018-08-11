@@ -250,7 +250,7 @@ get_sentiment(vocab, ['the', 'show', 'is', 'terribly', 'boring'])
 
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6155)
+
 
 
 ![](../img/qr_sentiment-analysis.svg)

@@ -165,7 +165,7 @@ $$U\left(-\sqrt{\frac{6}{a+b}}, \sqrt{\frac{6}{a+b}}\right).$$
 
 * 有人说随机初始化模型参数是为了“打破对称性”。这里的“对称”应如何理解？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6447)
+
 
 ![](../img/qr_mlp.svg)
 

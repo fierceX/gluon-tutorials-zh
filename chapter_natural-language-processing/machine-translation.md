@@ -344,7 +344,7 @@ $$ \exp(\min(0, 1 - \frac{len_{\text{label}}}{len_{\text{pred}}})) \prod_{i=1}^k
 * 试着使用更大的翻译数据集来训练模型，例如WMT [3] 和Tatoeba Project [4]。
 * 在解码器中使用强制教学，观察实现现象。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4689)
+
 
 ![](../img/qr_machine-translation.svg)
 

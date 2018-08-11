@@ -186,7 +186,7 @@ $$\mathbb{P}(w_3 \mid w_i) = \sigma(\mathbf{u}_{n(w_3,1)}^\top \mathbf{v}_i) \cd
 * 一些"the"和"a"之类的英文高频词会对结果产生什么影响？该如何处理？提示：可参考word2vec论文第2.3节 [2]。
 * 如何训练包括例如"new york"在内的词组向量？提示：可参考word2vec论文第4节 [2]。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4203)
+
 
 ![](../img/qr_word2vec.svg)
 

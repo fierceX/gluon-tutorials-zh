@@ -150,7 +150,7 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 - AlexNet对于Fashion-MNIST过于复杂，试着简化模型来使得训练更快，同时保证精度不明显下降。
 - 修改批量大小，观察性能和GPU内存的变化。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1258)
+
 
 ![](../img/qr_alexnet-gluon.svg)
 

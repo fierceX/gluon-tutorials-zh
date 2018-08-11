@@ -132,6 +132,6 @@ $$
 * 如果按本节softmax运算的定义来实现该运算，在计算时可能会有什么问题？提示：想想$\exp(50)$的大小。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6403)
+
 
 ![](../img/qr_softmax-regression.svg)

@@ -90,6 +90,6 @@ gb.train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size,
 - 改变 `num_hiddens`超参数的值，看看对结果有什么影响。
 - 试着加入一个新的隐藏层，看看对结果有什么影响。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/739)
+
 
 ![](../img/qr_mlp-scratch.svg)

@@ -60,6 +60,6 @@ $$\boldsymbol{O}_t = \boldsymbol{H}_t \boldsymbol{W}_{hy} + \boldsymbol{b}_y.$$
 * 为什么循环神经网络可以表达某时间步的词基于文本序列中所有过去的词的条件概率？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6669)
+
 
 ![](../img/qr_hidden-state.svg)

@@ -71,6 +71,6 @@ net.initialize(init=MyInit())
 
 * 如果在下一次`net(x)`前改变`x`形状，包括批量大小和特征大小，会发生什么？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6320)
+
 
 ![](../img/qr_deferred-init.svg)

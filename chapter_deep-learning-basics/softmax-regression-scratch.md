@@ -262,7 +262,7 @@ print('predictions:', get_text_labels(predicted_labels))
 * 你能想到哪些办法来解决上面这两个问题？
 * 修改`DataLoader`里的参数`num_workers`，查看这个改动对计算性能的影响。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/741)
+
 
 ![](../img/qr_softmax-regression-scratch.svg)
 

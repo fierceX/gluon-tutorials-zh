@@ -101,6 +101,6 @@ pool2d(X)
 - 想一想最大池化层和平均池化层的区别主要在哪里？
 - 你觉得最小池化层这个想法怎么样？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6406)
+
 
 ![](../img/qr_pooling.svg)

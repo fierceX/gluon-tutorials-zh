@@ -110,6 +110,6 @@ Y2 = corr2d_multi_in_out(X, K)
 - 对于非$1\times 1$卷积层，如何也将其表示成一个矩阵乘法。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6405)
+
 
 ![](../img/qr_channels.svg)

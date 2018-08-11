@@ -122,6 +122,6 @@ train(num_gpus=2, batch_size=512, lr=0.3)
 * 本节使用了ResNet-18。试试不同的迭代周期、批量大小和学习率。如果条件允许，使用更多GPU计算。
 * 有时候，不同的CPU/GPU的计算能力不一样，例如同时使用CPU和GPU，或者GPU之间型号不一样。这时候应该怎么办？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1885)
+
 
 ![](../img/qr_multiple-gpus-gluon.svg)

@@ -79,7 +79,7 @@ git push
 * 如果你觉得本书某些地方可以改进，尝试提交一个pull request。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/7570)
+
 
 ![](../img/qr_how-to-contribute.svg)
 

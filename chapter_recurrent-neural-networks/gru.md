@@ -187,7 +187,7 @@ gb.train_and_predict_rnn(gru_rnn, False, num_epochs, num_steps, num_hiddens,
 * 在相同条件下，比较门控循环单元和循环神经网络的运行时间。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4042)
+
 
 ![](../img/qr_gru.svg)
 

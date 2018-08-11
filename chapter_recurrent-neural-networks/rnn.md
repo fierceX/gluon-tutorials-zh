@@ -449,6 +449,6 @@ train_and_predict_rnn(rnn, False, num_epochs, num_steps, num_hiddens, lr,
 * 将本节中使用的激活函数替换成ReLU，重复本节的实验。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/989)
+
 
 ![](../img/qr_rnn.svg)

@@ -118,6 +118,6 @@ net[0].weight.data()
 * 试试大一点的计算任务，例如大矩阵的乘法，看看CPU和GPU的速度区别。如果是计算量很小的任务呢？
 * GPU上应如何读写模型参数？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/988)
+
 
 ![](../img/qr_use-gpu.svg)

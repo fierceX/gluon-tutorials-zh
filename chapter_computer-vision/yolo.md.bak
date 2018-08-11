@@ -442,6 +442,6 @@ display(im, out[0], threshold=0.5)
 * 调整不同损失函数相对的权重，看看对于训练结果有什么影响？
 * 在目标检测这种batch内部有效目标占比很少的情况下，损失函数内部取平均有什么问题，更好的方法？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6279)
+
 
 ![](../img/qr_yolo.svg)

@@ -170,6 +170,6 @@ hotdog_w.shape
 
 - 试试不让`finetune_net`里重用的权重参与训练，也就是不更新他们的权重。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/2272)
+
 
 ![](../img/qr_fine-tuning.svg)

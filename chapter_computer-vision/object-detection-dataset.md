@@ -85,6 +85,6 @@ for ax, label in zip(axes, batch.label[0][0:10]):
 
 * 了解下`image.ImageDetIter`和`image.CreateDetAugmenter`这两个类的创建参数。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/7022)
+
 
 ![](../img/qr_object-detection-dataset.svg)

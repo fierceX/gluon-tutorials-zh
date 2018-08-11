@@ -60,6 +60,6 @@ fig.axes.add_patch(bbox_to_rect(cat_bbox, 'red'));
 
 * 找一些图片，尝试标注下其中物体的边界框。比较下同图片分类标注所花时间的区别。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/7023)
+
 
 ![](../img/qr_bounding-box.svg)

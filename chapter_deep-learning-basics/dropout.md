@@ -128,6 +128,6 @@ gb.train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size, params,
 - 尝试不使用丢弃法，看看这个包含两个隐藏层的多层感知机可以得到什么结果。
 - 如果把本节中的两个丢弃概率超参数对调，会有什么结果？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1278)
+
 
 ![](../img/qr_dropout.svg)

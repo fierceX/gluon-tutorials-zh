@@ -89,7 +89,7 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 - 多用几个迭代周期来观察网络收敛速度。
 - 为什么NiN块里要有两个$1\times 1$卷积层，去除一个看看？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1661)
+
 
 ![](../img/qr_nin-gluon.svg)
 

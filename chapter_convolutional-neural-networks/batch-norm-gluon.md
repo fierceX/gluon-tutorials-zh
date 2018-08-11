@@ -53,6 +53,6 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 
 * 查看BatchNorm文档来了解更多使用方法，例如如何在训练时使用全局平均的均值和方差。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1254)
+
 
 ![](../img/qr_batch-norm-gluon.svg)

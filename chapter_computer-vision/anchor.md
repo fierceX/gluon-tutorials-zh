@@ -199,6 +199,6 @@ for i in ret[0].asnumpy():
 - 构造IoU是0.5的两个边界框，看看视觉上他们的重合度。
 - 修改训练和预测里的`anchors`来看他们对结果的影响。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/7024)
+
 
 ![](../img/qr_anchor.svg)

@@ -248,7 +248,7 @@ get_top_k_by_analogy(glove_6b50d, 1, 'do', 'did', 'go')
 * 如果在[“循环神经网络的Gluon实现”](../chapter_recurrent-neural-networks/rnn-gluon.md)一节中将Embedding实例里的参数初始化为预训练的词向量，效果如何？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4373)
+
 
 ![](../img/qr_similarity-analogy.svg)
 

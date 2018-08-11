@@ -196,6 +196,6 @@ for X, Y in train_iter:
 
 * 对比下有哪些图片分类上使用的图片增广比较难在语义分割上使用。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/7218)
+
 
 ![](../img/qr_semantic-segmentation-and-dataset.svg)

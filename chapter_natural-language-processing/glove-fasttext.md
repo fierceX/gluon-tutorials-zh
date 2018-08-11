@@ -122,7 +122,7 @@ fastText对于一些语言较重要，例如阿拉伯语、德语和俄语。例
 * 如果丢弃GloVe中的偏差项，是否也可以满足任意一对词共现的对称性？
 * 在fastText中，子词过多怎么办（例如，6字英文组合数为$26^6$）？提示：可参考fastText论文3.2节 [2]。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4372)
+
 
 ![](../img/qr_glove-fasttext.svg)
 

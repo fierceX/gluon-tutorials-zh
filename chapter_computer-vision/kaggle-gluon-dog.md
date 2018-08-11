@@ -325,7 +325,7 @@ with open('submission.csv', 'w') as f:
 * 使用更深的预训练模型并微调，你能获得更好的结果吗？
 * 扫码直达讨论区，在社区交流方法和结果。你能发掘出其他更好的技巧吗？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/2399)
+
 
 ![](../img/qr_kaggle-gluon-dog.svg)
 

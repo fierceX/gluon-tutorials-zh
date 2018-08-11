@@ -80,7 +80,7 @@ $$- \log\mathbb{P}(y_1, \ldots, y_{T'} \mid x_1, \ldots, x_T) = -\sum_{t'=1}^{T'
 * 有哪些方法可以设计解码器的输出层？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4523)
+
 
 ![](../img/qr_seq2seq.svg)
 

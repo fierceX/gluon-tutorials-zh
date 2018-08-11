@@ -50,6 +50,6 @@ y
 * 查阅NDArray支持的其他操作。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/7116)
+
 
 ![](../img/qr_lookup-api.svg)

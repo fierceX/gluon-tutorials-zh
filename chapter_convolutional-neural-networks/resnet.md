@@ -146,7 +146,7 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 - 对于比较深的网络， ResNet论文中介绍了一个“bottleneck”架构来降低模型复杂度。尝试实现它 [1]。
 - 在ResNet的后续版本里，作者将残差块里的“卷积、批量归一化和激活”结构改成了“批量归一化、激活和卷积”，实现这个改进（[2]，图1）。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1663)
+
 
 ![](../img/qr_resnet-gluon.svg)
 

@@ -234,6 +234,6 @@ d.asnumpy()
 * 将广播机制中按元素操作的两个NDArray替换成其他形状，结果是否和预期一样？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/745)
+
 
 ![](../img/qr_ndarray.svg)

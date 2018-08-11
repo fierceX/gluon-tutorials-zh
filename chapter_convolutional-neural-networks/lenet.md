@@ -141,7 +141,7 @@ train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 - LeNet的设计是针对MNIST，但在我们这里使用的Fashion-MNIST复杂度更高。尝试基于LeNet构造更复杂的网络来改善精度。例如可以考虑调整卷积窗口大小、输出层大小、激活函数和全连接层输出大小。在优化方面，可以尝试使用不同学习率、初始化方法和多使用一些迭代周期。
 - 找出Xavier的具体初始化方法。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/737)
+
 
 ![](../img/qr_cnn-gluon.svg)
 

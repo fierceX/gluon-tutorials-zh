@@ -141,7 +141,7 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 - DenseNet被人诟病的一个问题是内存消耗过多。真的会这样吗？可以把输入换成$224\times 224$，来看看实际（GPU）内存消耗。
 - 实现DenseNet论文中的表1提出的各个DenseNet版本 [1]。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1664)
+
 
 ![](../img/qr_densenet-gluon.svg)
 

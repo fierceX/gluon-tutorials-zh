@@ -257,6 +257,6 @@ train_with_data_aug(test_augs, test_augs)
 
 * 尝试在CIFAR-10训练中增加不同的增广方法。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1666)
+
 
 ![](../img/qr_image-augmentation.svg)

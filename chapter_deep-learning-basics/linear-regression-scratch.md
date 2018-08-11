@@ -172,6 +172,6 @@ true_b, b
 * 回顾[“自动求梯度”](../chapter_prerequisite/autograd.md)一节。本节代码中变量`l`并不是一个标量，运行`l.backward()`将如何对模型参数求梯度？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/743)
+
 
 ![](../img/qr_linear-regression-scratch.svg)

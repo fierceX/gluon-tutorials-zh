@@ -211,7 +211,7 @@ gb.show_images(imgs[::3] + imgs[1::3] + imgs[2::3], 3, n);
 * 试着改改训练参数来使得收敛更好些。
 * FCN论文中提到了不只是使用主体卷积网络输出，还可以考虑其中间层的输出 [1]。试着实现这个想法。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/3041)
+
 
 ![](../img/qr_fcn.svg)
 

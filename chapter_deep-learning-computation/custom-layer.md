@@ -108,6 +108,6 @@ net(nd.random.uniform(shape=(2, 64)))
 * 如何修改自定义层里模型参数的默认初始化函数？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1256)
+
 
 ![](../img/qr_custom-layer.svg)

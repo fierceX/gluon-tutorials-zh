@@ -100,7 +100,7 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 - 尝试将Fashion-MNIST的高宽由224改成96，实验其带来的影响。
 - 参考VGG论文里的表1来构造VGG其他常用模型，例如VGG16和VGG19 [1]。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1277)
+
 
 ![](../img/qr_vgg-gluon.svg)
 

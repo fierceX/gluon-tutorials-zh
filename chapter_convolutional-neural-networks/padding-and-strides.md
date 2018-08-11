@@ -87,6 +87,6 @@ comp_conv2d(conv2d, X).shape
 - 对最后一个例子通过形状计算公式来计算其输出形状。
 - 试一试其他的填充和步幅组合。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6404)
+
 
 ![](../img/qr_padding-and-strides.svg)

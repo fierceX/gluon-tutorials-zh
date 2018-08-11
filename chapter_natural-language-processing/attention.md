@@ -65,7 +65,7 @@ $$
 
 * 除了自然语言处理，注意力机制还可以应用在哪些地方？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6759)
+
 
 ![](../img/qr_attention.svg)
 

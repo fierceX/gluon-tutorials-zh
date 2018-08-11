@@ -92,6 +92,6 @@ fit_and_plot(5)
 
 * 调一调本节实验中的`wd`超参数。观察并分析实验结果。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/985)
+
 
 ![](../img/qr_weight-decay-gluon.svg)

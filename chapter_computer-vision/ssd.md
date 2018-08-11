@@ -375,6 +375,6 @@ gb.plt.legend();
 * 在展示的时候如何选取阈值，特别是在修改训练算法时（例如增加迭代周期）。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/2511)
+
 
 ![](../img/qr_ssd.svg)

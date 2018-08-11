@@ -129,6 +129,6 @@ true_b, dense.bias.data()
 * 如果将`l = loss(output, y)`替换成`l = loss(output, y).mean()`，我们需要将`trainer.step(batch_size)`相应地改成`trainer.step(1)`。这是为什么呢？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/742)
+
 
 ![](../img/qr_linear-regression-gluon.svg)

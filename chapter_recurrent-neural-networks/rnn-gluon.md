@@ -266,7 +266,7 @@ print('test loss %.2f, perplexity %.2f'
 * 调调超参数，观察并分析对运行时间以及训练集、验证集和测试集上困惑度的影响。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/4089)
+
 
 ![](../img/qr_rnn-gluon.svg)
 

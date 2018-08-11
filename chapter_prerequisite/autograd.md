@@ -86,6 +86,6 @@ a.grad == c / a
 * 自己重新设计一个对控制流求梯度的例子。运行并分析结果。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/744)
+
 
 ![](../img/qr_autograd.svg)

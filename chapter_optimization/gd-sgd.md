@@ -233,7 +233,7 @@ optimize(batch_size=10, lr=0.002, num_epochs=3, decay_epoch=2,
 * 运行本节中实验代码。比较一下随机梯度下降和梯度下降的运行时间。
 * 梯度下降和随机梯度下降虽然看上去有效，但可能会有哪些问题？
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1877)
+
 
 
 ![](../img/qr_gd-sgd.svg)

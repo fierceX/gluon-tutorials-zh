@@ -249,7 +249,7 @@ gb.plt.imsave('../img/neural-style-2.png', postprocess(z).asnumpy())
 * 一个得到更加干净的合成图的办法是使用更大的尺寸。
 * 换别的样式和内容图片试试。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/3273)
+
 
 ![](../img/qr_neural-style.svg)
 

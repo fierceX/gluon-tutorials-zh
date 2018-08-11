@@ -52,6 +52,6 @@ gb.train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size,
 
 * 尝试不同丢弃概率超参数组合，观察并分析结果。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1279)
+
 
 ![](../img/qr_dropout-gluon.svg)

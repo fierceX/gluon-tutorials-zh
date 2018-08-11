@@ -135,6 +135,6 @@ conda env update -f environment.yml
 
 * 获取本书代码并安装运行环境。如果你在安装时遇到任何问题，请扫一扫本节二维码。在讨论区，你可以查阅疑难问题汇总或者提问。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/249)
+
 
 ![](../img/qr_install.svg)

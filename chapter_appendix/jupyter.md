@@ -112,6 +112,6 @@ jupyter nbextension enable execute_time/ExecuteTime
 * 尝试在本地编辑和运行本书代码。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/6965)
+
 
 ![](../img/qr_jupyter.svg)

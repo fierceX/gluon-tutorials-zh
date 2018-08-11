@@ -147,7 +147,7 @@ gb.train_ch5(net, train_iter, test_iter, loss, batch_size, trainer, ctx,
 
 * 对比AlexNet、VGG和NiN、GoogLeNet的模型参数大小。分析为什么后两个网络可以显著减小模型大小。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/1662)
+
 
 ![](../img/qr_googlenet-gluon.svg)
 

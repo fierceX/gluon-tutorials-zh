@@ -145,7 +145,7 @@ net(x)
 * 在NestMLP里假设我们改成 `self.net = [nn.Dense(64, activation='relu'), nn.Dense(32, activation='relu')]`，而不是用Sequential类来构造，会有什么问题？
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/986)
+
 
 
 ![](../img/qr_model-construction.svg)

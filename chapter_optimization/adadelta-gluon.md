@@ -49,7 +49,7 @@ gb.optimize(batch_size=10, trainer=trainer, num_epochs=3, decay_epoch=None,
 * 如果把试验中的参数$\rho$改小会怎样？观察并分析实验结果。
 
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/2278)
+
 
 
 ![](../img/qr_adadelta-gluon.svg)

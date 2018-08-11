@@ -68,6 +68,6 @@ gb.train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size, None,
 
 * 尝试调一调超参数，例如批量大小、迭代周期和学习率，看看结果会怎样。
 
-## 扫码直达[讨论区](https://discuss.gluon.ai/t/topic/740)
+
 
 ![](../img/qr_softmax-regression-gluon.svg)
