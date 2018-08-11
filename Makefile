@@ -60,7 +60,7 @@ pdf: $(DEPS) $(OBJ) $(PDFIMG)
 	sed -i s/{tocdepth}{0}/{tocdepth}{1}/g $(TEX)
 	sed -i s/{\\\\releasename}{发布}/{\\\\releasename}{}/g $(TEX)
 	sed -i s/{OriginalVerbatim}\\\[commandchars=\\\\\\\\\\\\{\\\\}\\\]/{OriginalVerbatim}\\\[commandchars=\\\\\\\\\\\\{\\\\},formatcom=\\\\footnotesize\\\]/g $(TEX)
-	sed -i s/\\\\usepackage{geometry}/\\\\usepackage[paperwidth=187mm,paperheight=235mm,left=20mm,right=20mm,top=20mm,bottom=15mm,includefoot]{geometry}/g $(TEX)
+	sed -i s/\\\\usepackage{geometry}/\\\\usepackage[paperwidth=90mm,paperheight=120mm,left=1mm,right=1mm,top=1mm,bottom=1mm,includefoot]{geometry}/g $(TEX)
 	# Remove un-translated long table descriptions
 	sed -i /\\\\multicolumn{2}{c}\%/d $(TEX)
 	sed -i /\\\\sphinxtablecontinued{Continued\ on\ next\ page}/d $(TEX)

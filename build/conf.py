@@ -262,10 +262,11 @@ latex_elements = {
 \makeatletter
     \fancypagestyle{normal}{
         \fancyhf{}
-        \fancyfoot[LE,RO]{{\py@HeaderFamily\thepage}}
-        \fancyfoot[LO]{{\py@HeaderFamily\nouppercase{\rightmark}}}
-        \fancyfoot[RE]{{\py@HeaderFamily\nouppercase{\leftmark}}}
-        \fancyhead[LE,RO]{{\py@HeaderFamily }}
+        \newcommand{\helv}{\fontseries{b}\fontsize{7}{9}\selectfont}
+        \newcommand{\helvv}{\fontseries{b}\fontsize{5}{7}\selectfont}
+        \fancyfoot[R]{\helv{\py@HeaderFamily\thepage}}
+        \fancyfoot[C]{\helvv{\py@HeaderFamily\nouppercase{\rightmark}}}
+        \fancyfoot[L]{\helv{\py@HeaderFamily\nouppercase{\leftmark}}}
      }
 \makeatother
 ''',
