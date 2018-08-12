@@ -257,7 +257,7 @@ latex_elements = {
 
 \usepackage[draft]{minted}
 \fvset{breaklines=true, breakanywhere=true}
-\setlength{\headheight}{13.6pt}
+\setlength{\headheight}{12.09pt}
 
 \makeatletter
     \fancypagestyle{normal}{

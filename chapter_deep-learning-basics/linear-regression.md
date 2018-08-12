@@ -33,7 +33,12 @@ $$\ell^{(i)}(w_1, w_2, b) = \frac{(\hat{y}^{(i)} - y^{(i)})^2}{2},$$
 
 当该损失越小时，模型在数据样本$i$上的估计值和真实值越接近。已知训练数据集样本数为$n$。线性回归的目标是找到一组模型参数$w_1, w_2, b$来最小化损失函数
 
-$$\ell(w_1, w_2, b) =\frac{1}{n} \sum_{i=1}^n \ell^{(i)}(w_1, w_2, b) =\frac{1}{n} \sum_{i=1}^n \frac{(x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)})^2}{2}.$$
+$$
+\begin{aligned}
+\ell(w_1, w_2, b) &=\frac{1}{n} \sum_{i=1}^n \ell^{(i)}(w_1, w_2, b) \\
+&=\frac{1}{n} \sum_{i=1}^n \frac{(x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)})^2}{2}.
+\end{aligned}
+$$
 
 在上式中，损失函数$\ell(w_1, w_2, b)$可看作是训练数据集中各个样本上损失的平均。
 
@@ -45,9 +50,9 @@ $$\ell(w_1, w_2, b) =\frac{1}{n} \sum_{i=1}^n \ell^{(i)}(w_1, w_2, b) =\frac{1}{
 
 $$
 \begin{aligned}
-w_1 &\leftarrow w_1 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial w_1} = w_1 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}x_1^{(i)} (x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}),\\
-w_2 &\leftarrow w_2 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial w_2} = w_2 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}x_2^{(i)} (x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}),\\
-b &\leftarrow b -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial b} = b -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}(x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}).
+w_1 &\leftarrow w_1 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial w_1} \\ & = w_1 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}x_1^{(i)} (x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}),\\
+w_2 &\leftarrow w_2 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial w_2} \\ & = w_2 -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}x_2^{(i)} (x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}),\\
+b &\leftarrow b -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}} \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial b} \\ & = b -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}(x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}).
 \end{aligned}
 $$
 
@@ -159,20 +164,23 @@ $$\boldsymbol{\hat{y}} = \boldsymbol{X} \boldsymbol{w} + b,$$
 
 $$\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} -   \frac{\eta}{|\mathcal{B}|} \sum_{i \in \mathcal{B}}   \nabla_{\boldsymbol{\theta}} \ell^{(i)}(\boldsymbol{\theta}),$$
 
-其中梯度是损失有关三个标量模型参数的偏导数组成的向量：
+其中梯度是损失有关三个标量模型参数的偏导数组成的向量：  
+
 $$
-\nabla_{\boldsymbol{\theta}} \ell^{(i)}(\boldsymbol{\theta})=
+\begin{aligned}
+\nabla_{\boldsymbol{\theta}} \ell^{(i)}(\boldsymbol{\theta}) &=
 \begin{bmatrix}
     \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial w_1} \\
     \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial w_2} \\
     \frac{ \partial \ell^{(i)}(w_1, w_2, b)  }{\partial b}
-\end{bmatrix}
-=
+\end{bmatrix} \\
+&=
 \begin{bmatrix}
     x_1^{(i)} (x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}) \\
     x_2^{(i)} (x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}) \\
     x_1^{(i)} w_1 + x_2^{(i)} w_2 + b - y^{(i)}
 \end{bmatrix}.
+\end{aligned}
 $$
 
 
